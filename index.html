@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PixelForge allows you to convert images to pixels or pixels to images instantly. Upload your file or paste pixel data and see results live.">
+    <title>PixelForge - Convert Images to Pixels and Pixels to Images Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pixelforge.css">
+</head>
+<body>
+    <div class="root">
+        <div class="seo-content" style="position:absolute; left:-9999px; top:0; width:1px; height:1px; overflow:hidden;">
+            <h1>Convert Images to Pixels and Pixels to Images Online</h1>
+        
+            <p>PixelForge is an advanced online converter that lets you turn images into pixel data or rebuild images from pixel values. 
+            Upload JPG, JPEG, PNG, WEBP, GIF, or BMP files and extract clean pixel information in RGB, RGBA, HEX, or HSL format. 
+            You can also paste raw pixel data or upload text files to generate images instantly.</p>
+        
+            <h2>Image to Pixel Conversions Supported</h2>
+            <p>
+                JPG to RGB, JPG to RGBA, JPG to HEX, JPG to HSL<br>
+                JPEG to RGB, JPEG to RGBA, JPEG to HEX, JPEG to HSL<br>
+                PNG to RGB, PNG to RGBA, PNG to HEX, PNG to HSL<br>
+                WEBP to RGB, WEBP to RGBA, WEBP to HEX, WEBP to HSL<br>
+                GIF to RGB, GIF to HEX, GIF to HSL<br>
+                BMP to RGB, BMP to HEX, BMP to HSL<br>
+                All image formats supported for pixel matrix extraction.
+            </p>
+        
+            <h2>Pixel to Image Conversions Supported</h2>
+            <p>
+                RGB to PNG, RGB to JPG, RGB to JPEG, RGB to WEBP<br>
+                RGBA to PNG<br>
+                HEX to PNG, HEX to JPG, HEX to JPEG, HEX to WEBP<br>
+                HSL to PNG, HSL to JPG, HSL to JPEG, HSL to WEBP<br>
+                Pixel text files to JPG, PNG, WEBP<br>
+                Pixel arrays to high-resolution images.
+            </p>
+        
+            <p>This tool supports sizes like 6000x4000 and higher depending on device capacity. 
+            Useful for graphics, data analysis, machine learning preprocessing, low-resolution previews, 
+            pixel art generation, and programming projects that require structured pixel data.</p>
+        
+            <h2>Popular Searches</h2>
+            <p>
+                image to pixel converter, pixels to image generator, JPG to RGB online, PNG to HEX converter, 
+                RGB to PNG generator, HEX to JPG converter, image pixel matrix extractor, convert pixel data to image,
+                pixels to WEBP, image color value extractor, convert image to pixel array online.
+            </p>
+        </div>
+        
+        
+        <div class="header">
+            <div class="header-logo-container">
+                <img src="logo.png" alt="PixelForge Logo" class="header-logo">
+            </div>
+            <h3 class="header-tagline"></h3>
+            <div class="header-process">
+                <h3>Image</h3>
+                <h3>➡</h3>
+                <h3>Pixels</h3>
+            </div>
+        </div>
+
+        <div class="mainContent-container">
+            <div class="mainContent">
+                <div class="mainContent-placeholder-1">
+                    <button class="mainContent-placeholder-1-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    <div>Upload Image</div>
+                    <input type="file" class="mainContent-fileInput" multiple hidden>
+                   </button>
+                </div>
+                <div class="mainContent-placeholder-2">(You can upload upto 10 images)</div>
+                <div class="mainContent-placeholder-3">(Drag and drop here)</div>
+                <div class="mainContent-pixels">
+                    <div><button class="pixels-choose-text">Convert to Images by pasting pixels</button><div class="pixels-placeholder"> Recommended if pixels are less (width<=1920)<span class="mobile-note">Live preview works only on PC,mobiles cant handle!</span></div></div>
+                    <div><button class="pixels-choose-file">Convert to Images by uploading file</button><div class="pixels-placeholder">Recommended if pixels are more (width>=1920)</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="pixelforge.js"></script>
+</body>
+</html>
+
