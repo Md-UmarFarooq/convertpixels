@@ -1,8 +1,15 @@
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.seo-content{
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
 }
 
 .root {
@@ -724,3 +731,4 @@
         top: 106vh;
     }
 }
+
